@@ -7,4 +7,12 @@ class ParamsController < ApplicationController
   def url_example
     @value = params[:this_is_a_key_variable]
   end
+
+  def form_show
+
+  end
+
+  def form_send
+    @message = params[:form_message]
+  end
 end
